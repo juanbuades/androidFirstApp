@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ej04_juan_buades</string>
+    <string-array name="pantallas">
+        <item>Modificar</item>
+        <item>Web1</item>
+        <item>Web2</item>
+    </string-array>
+</resources>

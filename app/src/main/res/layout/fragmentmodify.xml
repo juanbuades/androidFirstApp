@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/IdModifyFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9699B8"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:text="¿Quieres cambiar alguna de tus páginas favoritas?"
+        android:textColorLink="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/newWeb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Nueva Web 1"
+        android:textColorLink="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/newWeb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:hint="Nueva Web 2"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#FFFFFF" />
+
+    <Button
+        android:id="@+id/changeWeb"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Cambiar"
+        app:backgroundTint="#353C6C" />
+
+</LinearLayout>
